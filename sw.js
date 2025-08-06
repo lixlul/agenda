@@ -1,6 +1,6 @@
 const CACHE_NAME = 'pwa-task-list-v1';
 const urlsToCache = [
-    '/agenda/sw',
+    '/agenda/sw.js',
     '/agenda/index.html',
     '/agenda/style.css',
     '/agenda/manifest.json',
@@ -25,4 +25,5 @@ self.addEventListener('fetch', event => {
             })
     );
 });
+
 
